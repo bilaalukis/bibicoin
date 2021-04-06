@@ -10,8 +10,8 @@ export class BlockchainViewerComponent implements OnInit {
   public blocks = [];
   public selectedBlock = null;
 
-  constructor(private blockChainService: BlockchainService) {
-    this.blocks = blockChainService.getBlocks();
+  constructor(private blockchainService: BlockchainService) {
+    this.blocks = blockchainService.getBlocks();
     this.selectedBlock = this.blocks[0];
   }
 
@@ -19,5 +19,9 @@ export class BlockchainViewerComponent implements OnInit {
 
   showTransactions(block) {
     this.selectedBlock = block;
+  }
+
+  minePendingTransactions() {
+    this.blockchainService.minePendingTransactions();
   }
 }

@@ -41,7 +41,7 @@
     <li class="list-group-item">
       <span class="">Timestamp</span><br />
       <div class="text-truncate text-muted">
-        <small>{{ block.timestamp }}</small>
+        <small>{{ block.timestamp | date: "MMM d, y, h:mm" }}</small>
       </div>
     </li>
   </ul>
