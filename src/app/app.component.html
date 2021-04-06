@@ -1,5 +1,14 @@
-<nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand" routerLink="/"> Bibicoin</a>
+<nav class="navbar navbar-dark px-3" style="background-color: #290628">
+  <a class="navbar-brand" routerLink="/">Bibicoin</a>
+  <div>
+    <button class="btn btn-outline-light" routerLink="/settings">
+      Settings
+    </button>
+    &nbsp;
+    <button class="btn btn-outline-light" routerLink="/new/transaction">
+      Create transaction
+    </button>
+  </div>
 </nav>
 
 <router-outlet></router-outlet>
