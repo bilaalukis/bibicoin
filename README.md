@@ -2,10 +2,10 @@
 Bibicoin is a blockchain visualization frontend written with angular to help visualize and undertand how blockchains work.
 
 ## Get Started
-# download and access repository
+### download and access repository
 $ git clone https://github.com/bilaalukis/bibicoin.git
 $ cd into the directory where you saved this project
-# install dependencies
+### install dependencies
 $ run npm i
 $ ng serve
 
