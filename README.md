@@ -48,4 +48,5 @@ Each card represents a block on the bibicoin blockchain
 
 ### Frontend:
 - Angular
+- HTML & CSS
 - Typescript
